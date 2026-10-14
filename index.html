@@ -1,0 +1,447 @@
+<!-- Teks bertanda merah muda = angka draf, WAJIB dicek dengan dokumen Peraturan Akademik ITSB sebelum dipublikasikan. -->
+<!DOCTYPE html>
+<html lang="id" style="">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Sains Data - Institut Teknologi Sains Bandung (ITSB)</title>
+    <!-- Tailwind CSS CDN with Forms & Container Queries plugins -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <!-- Google Fonts: Inter / Poppins -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&amp;display=swap"
+        rel="stylesheet">
+    <style data-purpose="typography">
+        body {
+            font-family: 'Poppins', sans-serif;
+            color: #333333;
+            background-color: #ffffff;
+            margin: 0;
+            padding: 0;
+            overflow-x: hidden;
+        }
+    </style>
+    <style data-purpose="custom-elements">
+        /* Table border fine tuning */
+        .table-curriculum th,
+        .table-curriculum td {
+            border: 1px solid #e2e8f0;
+        }
+
+        .table-curriculum tr:hover {
+            background-color: #f8fafc;
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+    <!-- BEGIN: MinimalHeaderWithLogo -->
+    <!-- Header khusus hanya menampilkan logo resmi ITSB tanpa menu navigasi sesuai instruksi -->
+    <header class="w-full bg-white border-b border-gray-100 py-4 px-6 md:px-12 sticky top-0 z-50 shadow-sm"
+        data-purpose="site-header">
+        <div class="max-w-7xl mx-auto flex items-center justify-between">
+            <div class="flex items-center"><img alt="Logo Resmi Institut Teknologi Sains Bandung (ITSB)"
+                    class="h-10 md:h-12 w-auto object-contain"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuAaffDWyaCzdlvSuFbhbhxkqBbBRVPVi7fONhr8s1Vs6LguiKwBwY7JivuLQ_oGx3lvUJmoKDwCB-OgglsgHPYIJPrH40G6ktupDcYpepDCwUvyNPt5Npd79tQgPyWbgtJK-STJRmF6CqEkjJdrPsD0B7DeCAbnHuFf6NG7kG7hGFyDRP8wtMJJzT4dNC4N2-hI9AmDIVW6j87vLK3xLYELhCl8nkt6z-pgBTFhytrXig_xH5nkKf5WsjozdNnJScFE9WE"></div>
+            <div class="hidden sm:block text-xs font-semibold tracking-wider text-slate-500 uppercase">Layanan &amp;
+                Informasi Akademik</div>
+        </div>
+    </header>
+    <!-- END: MinimalHeaderWithLogo -->
+    <!-- BEGIN: HeroBannerSection -->
+    <!-- Hero banner berlatar belakang mahasiswa dengan judul besar Sains Data -->
+    <section
+        class="relative w-full h-[380px] md:h-[480px] bg-slate-900 flex items-center justify-center overflow-hidden"
+        data-purpose="hero-banner">
+        <div class="absolute inset-0 bg-cover bg-center"
+            style="background-image: image-set(url(&quot;https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&amp;fit=crop&amp;w=1920&amp;q=80&quot;) 1x);">
+        </div>
+        <div
+            class="absolute inset-0 bg-slate-900/60 bg-gradient-to-t from-[#001c38]/90 via-[#003461]/70 to-[#001c38]/80">
+        </div>
+        <div class="relative z-10 text-center px-4 max-w-4xl mx-auto flex flex-col items-center justify-center"><span
+                class="inline-block px-4 py-1.5 rounded-full bg-white/10 text-white text-xs font-semibold tracking-wider uppercase mb-4 border border-white/20">Institut
+                Teknologi Sains Bandung</span>
+            <h1 class="text-3xl md:text-5xl font-extrabold text-white tracking-tight drop-shadow-md mb-3">Peraturan
+                &amp; SOP Akademik</h1>
+            <p class="text-blue-100 text-sm md:text-base max-w-2xl mx-auto leading-relaxed mb-6">Panduan resmi, tata
+                tertib, dan prosedur operasional standar administrasi perkuliahan bagi sivitas akademika ITSB.</p>
+            <div class="flex items-center justify-center text-white/80 animate-bounce"><svg class="w-6 h-6" fill="none"
+                    stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+                </svg></div>
+        </div>
+    </section>
+    <!-- END: HeroBannerSection -->
+    <!-- BEGIN: ActionButtonsAndTabs -->
+    <!-- Tombol CTA pendaftaran/WA dan Tab segmented control Tentang/Visi/Misi -->
+    <section class="w-full max-w-5xl mx-auto px-6 -mt-8 relative z-20 mb-16" id="peraturan-akademik">
+        <div
+            class="bg-white rounded-2xl shadow-lg border border-gray-100 p-6 md:p-8 flex flex-col md:flex-row items-center justify-between gap-6 hover:shadow-xl transition">
+            <div class="flex items-start gap-5">
+                <div
+                    class="w-14 h-14 rounded-xl bg-blue-50 text-[#004b87] flex items-center justify-center flex-shrink-0 shadow-xs border border-blue-100">
+                    <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"
+                            d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z">
+                        </path>
+                    </svg></div>
+                <div><span class="text-xs font-bold text-blue-600 tracking-wider uppercase">Dokumen Resmi</span>
+                    <h2 class="text-xl md:text-2xl font-bold text-gray-900 mt-0.5 mb-1">Peraturan Akademik ITSB</h2>
+                    <p class="text-gray-600 text-sm leading-relaxed">Dokumen resmi (PDF) berisi ketentuan akademik bagi
+                        seluruh mahasiswa.</p>
+                </div>
+            </div><a href="https://itsb.ac.id/page/buku-panduan-akademik-itsb" target="_blank"
+                rel="noopener noreferrer"
+                class="inline-flex items-center gap-2 bg-[#004b87] hover:bg-blue-700 text-white font-semibold text-sm py-3 px-6 rounded-xl shadow transition whitespace-nowrap"><span
+                    class="">Buka Dokumen</span><svg class="w-4 h-4" fill="none" stroke="currentColor"
+                    viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3">
+                    </path>
+                </svg></a>
+        </div>
+    </section>
+    <!-- END: ActionButtonsAndTabs -->
+    <!-- BEGIN: MissionSection -->
+    <!-- Bagian konten deskripsi misi program studi -->
+    <section class="w-full max-w-5xl mx-auto px-6 mb-20" id="sop-akademik">
+        <div class="text-center md:text-left mb-10">
+            <h2 class="text-2xl md:text-3xl font-extrabold text-gray-900">Standar Operasional Prosedur (SOP)</h2>
+            <p class="text-gray-600 text-sm mt-2">Panduan teknis dan alur pelaksanaan administrasi akademik mahasiswa
+                ITSB.</p>
+        </div>
+        <div class="space-y-8">
+            <div id="sop-krs"
+                class="scroll-mt-24 bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
+                <div class="p-6 md:p-7 border-b border-gray-100 bg-[#f8fafc]">
+                    <div class="flex flex-wrap items-center justify-between gap-3">
+                        <div class="flex items-center gap-3"><span
+                                class="w-8 h-8 rounded-lg bg-[#004b87] text-white flex items-center justify-center font-bold text-sm">01</span>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-900">SOP Kartu Rencana Studi (KRS)</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-xs"><span
+                                class="bg-blue-50 text-[#004b87] font-medium px-3 py-1 rounded-md border border-blue-100">Pelaksana:
+                                Mahasiswa, Dosen Wali, BAAK</span><span
+                                class="bg-gray-100 text-gray-700 font-medium px-3 py-1 rounded-md">Waktu: Sesuai
+                                Kalender Akademik</span></div>
+                    </div>
+                </div>
+                <div class="p-6 md:p-8 space-y-6">
+                    <div class="bg-gray-50 rounded-xl p-4 border border-gray-200/70">
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-2">Persyaratan:</h4>
+                        <ul class="space-y-1.5 text-xs md:text-sm text-gray-600 list-disc list-inside">
+                            <li class="">Berstatus mahasiswa aktif dan sudah melunasi administrasi keuangan semester
+                                berjalan.</li>
+                            <li class="">Sudah melakukan konsultasi perwalian.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-3">Prosedur Pelaksanaan:
+                        </h4>
+                        <ol class="space-y-2.5 text-xs md:text-sm text-gray-600">
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">1</span><span
+                                    class="">Mahasiswa login ke <strong>e-Campuz</strong> menggunakan akun
+                                    masing-masing.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">2</span><span
+                                    class="">Buka menu KRS dan pilih mata kuliah sesuai batas SKS dan prasyarat.</span>
+                            </li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">3</span><span
+                                    class="">Pilih kelas dan jadwal yang tersedia, pastikan tidak ada jadwal
+                                    bentrok.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">4</span><span
+                                    class="">Simpan dan ajukan KRS untuk persetujuan Dosen Wali.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">5</span><span
+                                    class="">Dosen Wali memeriksa dan menyetujui KRS (atau mengembalikan untuk
+                                    revisi).</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">6</span><span
+                                    class="">Setelah disetujui, KRS berstatus final. Mahasiswa mencetak/menyimpan bukti
+                                    KRS.</span></li>
+                        </ol>
+                    </div>
+                    <div
+                        class="p-4 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-xs md:text-sm flex items-start gap-3">
+                        <svg class="w-5 h-5 text-amber-600 shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <p class=""><strong>Perubahan KRS:</strong> Penambahan atau pembatalan mata kuliah hanya dapat
+                            dilakukan pada masa perubahan KRS sesuai tanggal yang ditetapkan dengan persetujuan Dosen
+                            Wali.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="sop-perwalian"
+                class="scroll-mt-24 bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
+                <div class="p-6 md:p-7 border-b border-gray-100 bg-[#f8fafc]">
+                    <div class="flex flex-wrap items-center justify-between gap-3">
+                        <div class="flex items-center gap-3"><span
+                                class="w-8 h-8 rounded-lg bg-[#004b87] text-white flex items-center justify-center font-bold text-sm">02</span>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-900">SOP Perwalian</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-xs"><span
+                                class="bg-blue-50 text-[#004b87] font-medium px-3 py-1 rounded-md border border-blue-100">Pelaksana:
+                                Dosen Wali, Mahasiswa, Program Studi</span><span
+                                class="bg-gray-100 text-gray-700 font-medium px-3 py-1 rounded-md">Waktu: Setiap awal
+                                semester &amp; sesuai kebutuhan</span></div>
+                    </div>
+                </div>
+                <div class="p-6 md:p-8 space-y-6">
+                    <div class="bg-blue-50/50 rounded-xl p-4 border border-blue-100">
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-[#004b87] mb-1">Tujuan Perwalian:
+                        </h4>
+                        <p class="text-xs md:text-sm text-gray-700 leading-relaxed">Membimbing mahasiswa dalam
+                            merencanakan studi, memantau kemajuan akademik, dan membantu menyelesaikan kendala selama
+                            perkuliahan.</p>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-3">Prosedur Pelaksanaan:
+                        </h4>
+                        <ol class="space-y-2.5 text-xs md:text-sm text-gray-600">
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">1</span><span
+                                    class="">Program Studi menetapkan Dosen Wali untuk setiap mahasiswa dan mengumumkan
+                                    jadwal perwalian.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">2</span><span
+                                    class="">Mahasiswa menghubungi Dosen Wali dan hadir pada jadwal yang
+                                    ditentukan.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">3</span><span
+                                    class="">Dosen Wali meninjau IPS, IPK, dan status studi mahasiswa.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">4</span><span
+                                    class="">Dosen Wali dan mahasiswa menyusun rencana mata kuliah semester
+                                    berikutnya.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">5</span><span
+                                    class="">Hasil konsultasi dicatat pada lembar/menu perwalian di
+                                    <strong>e-Campuz</strong>.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">6</span><span
+                                    class="">Dosen Wali menyetujui KRS mahasiswa (lihat SOP KRS).</span></li>
+                        </ol>
+                    </div>
+                    <div
+                        class="p-4 rounded-xl bg-amber-50 border border-amber-200 text-amber-900 text-xs md:text-sm flex items-start gap-3">
+                        <svg class="w-5 h-5 text-amber-600 shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z">
+                            </path>
+                        </svg>
+                        <p class=""><strong>Perwalian Khusus:</strong> Mahasiswa dengan IPK di bawah <mark
+                                class="bg-rose-100 text-rose-700 font-semibold px-1 rounded">2,00</mark> atau berisiko
+                            melewati batas studi wajib mengikuti perwalian intensif dengan Ketua Program Studi.</p>
+                    </div>
+                    <div class="pt-2"><a href="https://itsb.ac.id/page/kalender-akademik"
+                            class="inline-flex items-center gap-1.5 text-xs md:text-sm font-semibold text-blue-600 hover:text-blue-800 transition"><span
+                                class="">Lihat jadwal perwalian di Kalender Akademik</span><span aria-hidden="true"
+                                class="">→</span></a></div>
+                </div>
+            </div>
+            <div id="sop-tugas-akhir"
+                class="scroll-mt-24 bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
+                <div class="p-6 md:p-7 border-b border-gray-100 bg-[#f8fafc]">
+                    <div class="flex flex-wrap items-center justify-between gap-3">
+                        <div class="flex items-center gap-3"><span
+                                class="w-8 h-8 rounded-lg bg-[#004b87] text-white flex items-center justify-center font-bold text-sm">03</span>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-900">SOP Tugas Akhir / Skripsi</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-xs"><span
+                                class="bg-blue-50 text-[#004b87] font-medium px-3 py-1 rounded-md border border-blue-100">Pelaksana:
+                                Mahasiswa, Dosen Pembimbing, Penguji, Prodi</span><span
+                                class="bg-gray-100 text-gray-700 font-medium px-3 py-1 rounded-md">Beban: <mark
+                                    class="bg-rose-100 text-rose-700 font-semibold px-1 rounded">6 SKS</mark></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="p-6 md:p-8 space-y-6">
+                    <div class="bg-gray-50 rounded-xl p-4 border border-gray-200/70">
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-2">Persyaratan:</h4>
+                        <ul class="space-y-1.5 text-xs md:text-sm text-gray-600 list-disc list-inside">
+                            <li class="">Telah menempuh minimal <mark
+                                    class="bg-rose-100 text-rose-700 font-semibold px-1 rounded">120 SKS</mark> dengan
+                                IPK minimal <mark
+                                    class="bg-rose-100 text-rose-700 font-semibold px-1 rounded">2,00</mark>.</li>
+                            <li class="">Telah lulus Metodologi Penelitian dan mata kuliah prasyarat lain.</li>
+                            <li class="">Mengambil mata kuliah Tugas Akhir pada KRS semester berjalan.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-3">Prosedur Pelaksanaan:
+                        </h4>
+                        <ol class="space-y-2.5 text-xs md:text-sm text-gray-600">
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">1</span><span
+                                    class="">Mahasiswa mengajukan topik dan judul kepada Program Studi.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">2</span><span
+                                    class="">Program Studi menetapkan Dosen Pembimbing <mark
+                                        class="bg-rose-100 text-rose-700 font-semibold px-1 rounded">1 dan
+                                        2</mark>.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">3</span><span
+                                    class="">Mahasiswa menyusun proposal dan melakukan bimbingan secara berkala (minimal
+                                    <mark class="bg-rose-100 text-rose-700 font-semibold px-1 rounded">8×</mark>,
+                                    tercatat di lembar bimbingan).</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">4</span><span
+                                    class="">Seminar proposal dilaksanakan dan dinyatakan layak oleh pembimbing dan
+                                    penguji.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">5</span><span
+                                    class="">Pelaksanaan penelitian dan penulisan laporan akhir sesuai pedoman penulisan
+                                    ITSB.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">6</span><span
+                                    class="">Mahasiswa mendaftar sidang melalui Program Studi dengan melampirkan
+                                    persetujuan pembimbing dan bukti uji kemiripan (plagiarisme).</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">7</span><span
+                                    class="">Sidang akhir dilaksanakan di hadapan tim penguji.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">8</span><span
+                                    class="">Revisi diselesaikan dalam <mark
+                                        class="bg-rose-100 text-rose-700 font-semibold px-1 rounded">14 hari</mark> dan
+                                    disetujui pembimbing serta penguji.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">9</span><span
+                                    class="">Laporan final diunggah ke repositori/perpustakaan dan mahasiswa mengurus
+                                    berkas kelulusan.</span></li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+            <div id="sop-kerja-praktik"
+                class="scroll-mt-24 bg-white rounded-2xl border border-gray-200 shadow-sm overflow-hidden">
+                <div class="p-6 md:p-7 border-b border-gray-100 bg-[#f8fafc]">
+                    <div class="flex flex-wrap items-center justify-between gap-3">
+                        <div class="flex items-center gap-3"><span
+                                class="w-8 h-8 rounded-lg bg-[#004b87] text-white flex items-center justify-center font-bold text-sm">04</span>
+                            <h3 class="text-lg md:text-xl font-bold text-gray-900">SOP Kerja Praktik (KP) / Magang</h3>
+                        </div>
+                        <div class="flex flex-wrap gap-2 text-xs"><span
+                                class="bg-blue-50 text-[#004b87] font-medium px-3 py-1 rounded-md border border-blue-100">Pelaksana:
+                                Mahasiswa, Dosen Pembimbing KP, Pembimbing Lapangan, Prodi</span><span
+                                class="bg-gray-100 text-gray-700 font-medium px-3 py-1 rounded-md">Durasi: <mark
+                                    class="bg-rose-100 text-rose-700 font-semibold px-1 rounded">Minimal 1–2
+                                    bulan</mark></span></div>
+                    </div>
+                </div>
+                <div class="p-6 md:p-8 space-y-6">
+                    <div class="bg-gray-50 rounded-xl p-4 border border-gray-200/70">
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-2">Persyaratan:</h4>
+                        <ul class="space-y-1.5 text-xs md:text-sm text-gray-600 list-disc list-inside">
+                            <li class="">Telah menempuh minimal <mark
+                                    class="bg-rose-100 text-rose-700 font-semibold px-1 rounded">100 SKS</mark> dengan
+                                IPK minimal <mark
+                                    class="bg-rose-100 text-rose-700 font-semibold px-1 rounded">2,00</mark>.</li>
+                            <li class="">Mengambil KP pada KRS atau mengikuti skema magang sesuai ketentuan Program
+                                Studi.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="text-xs font-bold uppercase tracking-wider text-gray-700 mb-3">Prosedur Pelaksanaan:
+                        </h4>
+                        <ol class="space-y-2.5 text-xs md:text-sm text-gray-600">
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">1</span><span
+                                    class="">Mahasiswa memilih tempat KP (lowongan dari Career Center atau pilihan
+                                    sendiri) dan berkonsultasi dengan Program Studi.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">2</span><span
+                                    class="">Mahasiswa mengajukan surat pengantar KP melalui
+                                    <strong>LONTAR</strong>.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">3</span><span
+                                    class="">Program Studi menetapkan Dosen Pembimbing KP.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">4</span><span
+                                    class="">Surat diserahkan ke instansi dan mahasiswa memperoleh surat
+                                    penerimaan.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">5</span><span
+                                    class="">Pelaksanaan KP sesuai rencana kerja; mahasiswa mengisi logbook
+                                    harian/mingguan yang disahkan Pembimbing Lapangan.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">6</span><span
+                                    class="">Mahasiswa melakukan bimbingan dengan Dosen Pembimbing KP selama
+                                    pelaksanaan.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">7</span><span
+                                    class="">Penyusunan laporan KP dan penilaian dari Pembimbing Lapangan.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">8</span><span
+                                    class="">Seminar/presentasi KP di hadapan Dosen Pembimbing dan penguji.</span></li>
+                            <li class="flex items-start gap-3"><span
+                                    class="w-5 h-5 rounded-full bg-blue-100 text-blue-700 flex items-center justify-center text-xs font-bold shrink-0 mt-0.5">9</span><span
+                                    class="">Nilai KP diinput oleh Dosen Pembimbing berdasarkan penilaian lapangan,
+                                    laporan, dan presentasi.</span></li>
+                        </ol>
+                    </div>
+                    <div
+                        class="p-4 rounded-xl bg-blue-50 border border-blue-200 text-blue-900 text-xs md:text-sm flex items-start gap-3">
+                        <svg class="w-5 h-5 text-blue-600 shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                            viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                        </svg>
+                        <p class=""><strong>Catatan:</strong> Mahasiswa wajib menjaga kerahasiaan data instansi dan
+                            mematuhi tata tertib tempat KP.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- END: MissionSection -->
+    <!-- BEGIN: FieldAndSpecialization -->
+    <!-- Bagian Bidang Keilmuan & Kekhususan dengan foto dan kartu accordion/links -->
+
+    <!-- END: FieldAndSpecialization -->
+    <!-- BEGIN: CareerProspectSection -->
+    <!-- Bagian Prospek Karir menampilkan posisi Data Scientist -->
+
+    <!-- END: CareerProspectSection -->
+    <!-- BEGIN: OrganizationalStructureSection -->
+    <!-- Struktur Organisasi & Pengajar Sains Data -->
+
+    <!-- END: OrganizationalStructureSection -->
+    <!-- BEGIN: CurriculumTableSection -->
+    <!-- Tabel Struktur Kurikulum Mata Kuliah Semester 1 - 8 -->
+
+    <!-- END: CurriculumTableSection -->
+    <!-- BEGIN: CallToActionBanner -->
+    <!-- Banner penutup ajakan pendaftaran mahasiswa baru ITSB (tanpa footer bawah) -->
+    <section class="w-full bg-slate-900 text-white py-12 px-6 md:px-12 border-t border-slate-800" id="bantuan-section">
+        <div class="max-w-4xl mx-auto text-center space-y-4">
+            <div
+                class="w-12 h-12 rounded-full bg-blue-600/30 text-blue-400 border border-blue-500/30 flex items-center justify-center mx-auto">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="M18.364 5.636l-3.536 3.536m0 5.656l3.536 3.536M9.172 9.172L5.636 5.636m3.536 9.192l-3.536 3.536M21 12a9 9 0 11-18 0 9 9 0 0118 0zm-5 0a4 4 0 11-8 0 4 4 0 018 0z">
+                    </path>
+                </svg></div>
+            <h3 class="text-2xl font-bold tracking-tight text-white">Butuh Bantuan?</h3>
+            <p class="text-slate-300 text-sm md:text-base leading-relaxed">Hubungi Tata Usaha di <a
+                    href="tel:08881301184" class="text-blue-400 font-semibold hover:underline">0888-130-1184</a> atau
+                Sekretariat di <a href="tel:08893668668"
+                    class="text-blue-400 font-semibold hover:underline">0889-3668-668</a>.</p>
+            <p class="text-xs text-slate-500 pt-2">Institut Teknologi Sains Bandung — Kota Deltamas Lot-A1 CBD, Jl.
+                Ganesha Boulevard No.1, Cikarang Pusat, Kabupaten Bekasi</p>
+        </div>
+    </section>
+    <!-- END: CallToActionBanner -->
+
+
+</body>
+
+</html>
